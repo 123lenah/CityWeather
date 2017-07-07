@@ -12,6 +12,10 @@
 		040C38D61F05ABA40000B34D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040C38D41F05ABA40000B34D /* Main.storyboard */; };
 		040C38D81F05ABA40000B34D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040C38D71F05ABA40000B34D /* Assets.xcassets */; };
 		040C38DB1F05ABA40000B34D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040C38D91F05ABA40000B34D /* LaunchScreen.storyboard */; };
+		040C38E51F05ABE70000B34D /* configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C38E41F05ABE70000B34D /* configuration.swift */; };
+		040C38E71F05AECB0000B34D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040C38E61F05AECB0000B34D /* DataManager.swift */; };
+		04341DF71F0C23590092EFE0 /* alertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04341DF61F0C23590092EFE0 /* alertHelper.swift */; };
+		04E474771F06DEC600205524 /* weatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E474761F06DEC600205524 /* weatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		040C38D71F05ABA40000B34D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040C38DA1F05ABA40000B34D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040C38DC1F05ABA40000B34D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040C38E41F05ABE70000B34D /* configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = configuration.swift; sourceTree = "<group>"; };
+		040C38E61F05AECB0000B34D /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		04341DF61F0C23590092EFE0 /* alertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = alertHelper.swift; sourceTree = "<group>"; };
+		04E474761F06DEC600205524 /* weatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				040C38D71F05ABA40000B34D /* Assets.xcassets */,
 				040C38D91F05ABA40000B34D /* LaunchScreen.storyboard */,
 				040C38DC1F05ABA40000B34D /* Info.plist */,
+				040C38E41F05ABE70000B34D /* configuration.swift */,
+				040C38E61F05AECB0000B34D /* DataManager.swift */,
+				04E474761F06DEC600205524 /* weatherModel.swift */,
+				04341DF61F0C23590092EFE0 /* alertHelper.swift */,
 			);
 			path = weatherapp;
 			sourceTree = "<group>";
@@ -137,7 +149,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				040C38D31F05ABA40000B34D /* ViewController.swift in Sources */,
+				040C38E71F05AECB0000B34D /* DataManager.swift in Sources */,
+				040C38E51F05ABE70000B34D /* configuration.swift in Sources */,
 				040C38D11F05ABA40000B34D /* AppDelegate.swift in Sources */,
+				04E474771F06DEC600205524 /* weatherModel.swift in Sources */,
+				04341DF71F0C23590092EFE0 /* alertHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +200,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZULFIQAR SYED (7K2U3828M5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ZULFIQAR SYED (7K2U3828M5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -206,6 +223,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c644d833-5aac-4c65-a63a-d9184abe0867";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -234,7 +252,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZULFIQAR SYED (7K2U3828M5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ZULFIQAR SYED (7K2U3828M5)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -249,6 +268,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "c644d833-5aac-4c65-a63a-d9184abe0867";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -260,11 +280,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZULFIQAR SYED (7K2U3828M5)";
 				INFOPLIST_FILE = weatherapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lenahsapps.weatherapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c644d833-5aac-4c65-a63a-d9184abe0867";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -272,13 +295,76 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZULFIQAR SYED (7K2U3828M5)";
 				INFOPLIST_FILE = weatherapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lenahsapps.weatherapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c644d833-5aac-4c65-a63a-d9184abe0867";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
+		};
+		04B1DF091F0F232E004D6B32 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZULFIQAR SYED (7K2U3828M5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: ZULFIQAR SYED (7K2U3828M5)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "c644d833-5aac-4c65-a63a-d9184abe0867";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		04B1DF0A1F0F232E004D6B32 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZULFIQAR SYED (7K2U3828M5)";
+				INFOPLIST_FILE = weatherapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lenahsapps.weatherapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c644d833-5aac-4c65-a63a-d9184abe0867";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
 		};
 /* End XCBuildConfiguration section */
 
@@ -288,6 +374,7 @@
 			buildConfigurations = (
 				040C38DD1F05ABA40000B34D /* Debug */,
 				040C38DE1F05ABA40000B34D /* Release */,
+				04B1DF091F0F232E004D6B32 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -297,8 +384,10 @@
 			buildConfigurations = (
 				040C38E01F05ABA40000B34D /* Debug */,
 				040C38E11F05ABA40000B34D /* Release */,
+				04B1DF0A1F0F232E004D6B32 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
